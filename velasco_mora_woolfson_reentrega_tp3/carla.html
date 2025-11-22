@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chulla Vida</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body class="cw-body">
+  <header class="cw-header">
+    <div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html"> < Volver</a></li>
+          <li><a href="rucupashi.html">Rucupashi</a></li>
+          <li><a href="sofia.html">Velouria</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.youtube.com/watch?v=qzOdBGVJ-Js" target="_blank" rel="noopener">?</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cw-main">
+    <!-- COLUMNA IZQUIERDA -->
+    <section class="cw-columna-izq">
+      <div class="cw-bloque cw-imagen">
+        <img src="img/pikselart.gif" alt="gif artístico">
+      </div>
+
+      <div class="cw-bloque">
+        <h2 class="cw-titulo">Chulla Vida</h2>
+        <p class="cw-texto">Carla Woolfson</p>
+      </div>
+
+      <div class="cw-bloque">
+        <p class="cw-texto">
+          <span>Nacida en Quito, Ecuador. Reside en Buenos Aires,Argentina <br><br></span>
+          <span>23 años<br><br></span>
+          <span>Estudiante de Artes Multimediales<br><br></span>
+          <span>Artista multimedial</span>
+        </p>
+      </div>
+
+      <section class="cw-trabajos-lista cw-bloque">
+        <h2 class="cw-titulo">Obras:</h2>
+        <p><a href="img/audiovisualPV.mp4"><b>El hombre está solo y espera</b></a></p>
+        <p><a href="img/mascaramiaw.mp4"><b>Ojo</b></a></p>
+        <p><a href="img/libro_intervenido.mp4"><b>Libro intervenido</b></a></p>
+        <p><a href="img/PanchoconSalchicha.mp4"><b>Odisea de un chico panchero</b></a></p>
+        <p><a href="img/stencil.jpg"><b>Viva Palestina</b></a></p>
+        <p><a href="img/serigrafia.jpeg"><b>Serigrafía</b></a></p>
+      </section>
+      
+    </section>
+
+   <!-- GALERÍA -->
+<aside class="cw-trabajos">
+  <section class="cw-galeria">
+
+    <!-- Imagen grande oculta al inicio -->
+    <div id="cw-cont-galeria">
+      <a onclick="showHideLayers('cw-cont-galeria','','hide')" href="#">
+        <img id="cw-imagen-grande" src="">
+      </a>
+    </div>
+
+    <!-- Miniaturas -->
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/audiovisualPV_preview.png',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/audiovisualPV_preview.png" width="286" height="214">
+    </a>
+
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/mascaramiaw_preview.png',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/mascaramiaw_preview.png" width="286" height="214">
+    </a>
+
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/ibro_intervenido_preview.png',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/ibro_intervenido_preview.png" width="286" height="214">
+    </a>
+
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/PanchoconSalchicha_preview.png',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/PanchoconSalchicha_preview.png" width="286" height="214">
+    </a>
+
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/stencil.jpg',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/stencil.jpg" width="286" height="214">
+    </a>
+
+    <a class="cw-miniatura" href="#"
+       onclick="swapImage('cw-imagen-grande','','img/serigrafia.jpeg',1);
+                showHideLayers('cw-cont-galeria','','show')">
+      <img src="img/serigrafia.jpeg" width="286" height="214">
+    </a>
+
+  </section>
+  
+  <div class="cw-bloque">
+        <p class="cw-texto">
+          Experiencia en animación, edición de video y creación de distintas artes plásticas.
+          <br><br>
+          <b>Contacto:</b><br>
+          Email: seawolfson333@gmail.com<br>
+          IG: @c_deyuca
+        </p>
+      </div>
+
+</aside>
+
+  </main>
+
+  <footer class="cw-footer">
+    <p>Carla Woolfson — 2025</p>
+  </footer>
+
+  <script src="funciones.js" defer></script>
+</body>
+</html>

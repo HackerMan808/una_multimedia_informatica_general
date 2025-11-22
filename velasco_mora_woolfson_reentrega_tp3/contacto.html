@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto — Portfolio</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Portfolio Multimedial</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="carla.html">Chulla Vida</a></li>
+          <li><a href="rucupashi.html">Rucupashi</a></li>
+          <li><a href="sofia.html">Velouria</a></li>        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact">
+      <header><h1>Contacto</h1></header>
+      <p>Escríbenos un mensaje!</p>
+
+      <form id="contact-form" action="#" method="post">
+        <div class="contact-entry">
+        <label for="name">Nombre:</label>
+        <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="contact-entry">
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="contact-entry">
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="contact-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Informatica General 2025 UNA — Portfolio TP3 Mora, Velasco, Woolfson.</p>
+    </div>
+  </footer>
+
+  <script src="funciones.js" defer></script>
+</body>
+</html>
